@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
 Source Code connection.php
 <?php
-$connection = mysqli_connect('localhost', 'root', '', 'rest_api') 
+$connection = mysqli_connect('localhost: 8111', 'root', '', 'db_tiket film') 
 ?>
 
 Source Code data.json
